@@ -26,16 +26,23 @@ a {
 }
 
 .conteiner-head {
-    max-width: 80rem;
+    max-width: 100%;
     background: #fff;
-    margin: 0 auto;
     padding: 0rem 5rem;
 }
 
 .head-block {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 1rem 0rem;
     display: flex;
     justify-content: space-between;
     column-gap: 14rem;
+}
+
+.logo-img img{
+    width: 3.3rem;
+    height: 4rem;
 }
 
 .menu-conteiner {
@@ -62,7 +69,7 @@ a {
 }
 
 .conteiner-content {
-    max-width: 50rem;
+    max-width: 70rem;
     margin: 0 auto;
     flex-grow: 1;
     background: #E0E0E0;
@@ -105,7 +112,7 @@ a {
 
 .p-one {
     max-width: 58rem;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.9rem;
     color: #3D4144;
 }
@@ -127,10 +134,14 @@ a {
 }
 
 .block-list-two li,.block-list-one li {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.8rem;
     color: #3D4144;
     margin-bottom: 1rem;
+}
+
+.block-list-two {
+    padding-top: 1rem;
 }
 
 .block-list-one li {
@@ -293,14 +304,15 @@ a {
 }
 
 .conteiner-footer {
-    flex-shrink: 0;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
 .block {
     display: flex;
     margin-top: 5rem;
-    column-gap: 2rem;
+    column-gap: 6rem;
+    flex-wrap: wrap;
 }
 
 .block-connection p{
