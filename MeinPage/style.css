@@ -1,7 +1,8 @@
 body {
     box-sizing: border-box;
     font-size: 100%;
-    background: #E0E0E0;
+    background: url('../img/back-main.png');
+    background-size: cover;
 }
 
 * {
@@ -72,7 +73,6 @@ a {
     max-width: 70rem;
     margin: 0 auto;
     flex-grow: 1;
-    background: #E0E0E0;
 }
 
 .conteiner-one {
@@ -304,6 +304,11 @@ a {
 }
 
 .conteiner-footer {
+    max-width: 100%;
+    background: #fff;
+}
+
+.block {
     max-width: 70rem;
     margin: 0 auto;
 }
